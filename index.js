@@ -580,10 +580,171 @@ const jalapenoPopperTurkeyBake = [
         unity: "tbsp"
     },
 ]
+const portobelloGoatCheeseFlatbreads = [
+    {
+        ingredient: "Portobello Mushroom",
+        quantity: 4,
+        unity: "pack"
+    },  
+    {
+        ingredient: "Flatbread",
+        quantity: 4,
+        unity: "pack"
+    },    
+    {
+        ingredient: "Sweet Bell Pepper",
+        quantity: 320,
+        unity: "g"
+    },  
+    {
+        ingredient: "Spring Mix",
+        quantity: 113,
+        unity: "g"
+    },  
+    {
+        ingredient: "Basil",
+        quantity: 14,
+        unity: "g"
+    },  
+    {
+        ingredient: "Mozzarella Cheese",
+        quantity: 1.5,
+        unity: "cup"
+    },  
+    {
+        ingredient: "Goat Cheese",
+        quantity: 56,
+        unity: "g"
+    },  
+    {
+        ingredient: "Tomato Sauce Base",
+        quantity: 4,
+        unity: "tbsp"
+    },  
+    {
+        ingredient: "Italian Seasoning",
+        quantity: 1,
+        unity: "tbsp"
+    },  
+    {
+        ingredient: "Balsamic Vinegar",
+        quantity: 2,
+        unity: "tbsp"
+    },  
+    {
+        ingredient: "Sugar",
+        quantity: 0.5,
+        unity: "tsp"
+    },  
+    {
+        ingredient: "Oil",
+        quantity: 4,
+        unity: "tbsp"
+    },  
+]
+const harissaTurkey = [
+    {
+        ingredient: "Turkey Strips",
+        quantity: 570,
+        unity: "g"
+    },      
+    {
+        ingredient: "Harissa Spice Blend",
+        quantity: 2,
+        unity: "tbsp"
+    },  
+    {
+        ingredient: "Mini Cucumber",
+        quantity: 264,
+        unity: "g"
+    },  
+    {
+        ingredient: "Roma Tomato",
+        quantity: 320,
+        unity: "g"
+    },  
+    {
+        ingredient: "Mediterranean Spice Blend",
+        quantity: 2,
+        unity: "tbsp"
+    },  
+    {
+        ingredient: "Red Wine Vinegar",
+        quantity: 2,
+        unity: "tbsp"
+    },  
+    {
+        ingredient: "Feta Cheese",
+        quantity: 0.5,
+        unity: "cup"
+    },  
+    {
+        ingredient: "Yellow Potato",
+        quantity: 720,
+        unity: "g"
+    },  
+    {
+        ingredient: "Mayonnaise",
+        quantity: 115,
+        unity: "g"
+    },  
+    {
+        ingredient: "Oil",
+        quantity: 6,
+        unity: "tbsp"
+    },  
+]
+const caribbeanStyleBeef = [
+    {
+        ingredient: "Ground Beef",
+        quantity: 454,
+        unity: "g"
+    },          
+    {
+        ingredient: "Basmati Rice",
+        quantity: 1.5,
+        unity: "cup"
+    },      
+    {
+        ingredient: "Caribbean Spice Blend",
+        quantity: 3,
+        unity: "tbsp"
+    },      
+    {
+        ingredient: "Golden Turmeric Spice Blend",
+        quantity: 1,
+        unity: "g"
+    },      
+    {
+        ingredient: "Chicken Stock Reduction",
+        quantity: 2,
+        unity: "pack"
+    },      
+    {
+        ingredient: "Sweet Bell Pepper",
+        quantity: 320,
+        unity: "g"
+    },      
+    {
+        ingredient: "Garlic",
+        quantity: 4,
+        unity: "cloves"
+    },      
+    {
+        ingredient: "Green Peas",
+        quantity: 113,
+        unity: "g"
+    },      
+    {
+        ingredient: "Mayonnaise",
+        quantity: 115,
+        unity: "g"
+    },      
+]
 
 let shoppingCart = []
 
-let listOfRecipes = [turkeyTabbouleh,chickenMilanese,lambKoftas,lambKoftas]
+let listOfRecipes = [portobelloGoatCheeseFlatbreads,harissaTurkey,caribbeanStyleBeef]
 
 let unityIssues = []
 function getShoppingCart(listOfRecipes){
